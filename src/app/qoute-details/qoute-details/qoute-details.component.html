@@ -1,0 +1,18 @@
+<div class="icon">
+  <span
+    ><button (click)="likebuttonclick()" class="btn btn-warning">
+      likes<i class="fa fa-thumbs-up" aria-hidden="true"></i></button
+  ></span>
+  <span>{{ numberoflikes }}</span>
+  <span
+    ><button (click)="dislikebuttonclick()" class="btn btn-success">
+      dislikes<i class="fa fa-thumbs-down" aria-hidden="true"></i></button
+  ></span>
+  <span>{{ numberofdislikes }}</span
+  ><br /><br />
+  <button (click)="qouteDelete(true)" class="btn btn-danger">
+    Delete Quote<i class="fa fa-trash" aria-hidden="true"></i>
+  </button>
+</div>
+<p>{{ qoutes.written }}</p>
+<p>This qoute was writen in {{ qoutes.completeDate | date }}.</p>
