@@ -1,20 +1,5 @@
-// import { Component, OnInit } from '@angular/core';
-
-// @Component({
-//   selector: 'app-qoutes',
-//   templateUrl: './qoutes.component.html',
-//   styleUrls: ['./qoutes.component.css']
-// })
-// export class QoutesComponent implements OnInit {
-
-//   constructor() { }
-
-//   ngOnInit() {
-//   }
-
-// }
 import { Component, OnInit } from "@angular/core";
-import { Qoute } from "../qoutes";
+import { Qoute } from 'qoutes';
 
 @Component({
   selector: "app-qoutes",
@@ -25,18 +10,18 @@ export class QouteComponent implements OnInit {
   qoutes: Qoute[] = [
     new Qoute(
       1,
-      "To Love is to care.",
-      "tressy",
-      "Teresa Clerk",
-      new Date(2020, 1, 13)
+      "variety is the spice of lfe",
+      "James Odera",
+      "Vybes Kartel",
+      new Date(2020, 0, 23)
     ),
 
 
     new Qoute(
       2,
-      "When you cannot find the sunshine be the sunshine",
-      "Bliss",
-      "Maccnon Law",
+      "some people are too poor that all the have is money ",
+      "Elizabeth Otieno",
+      "Bob Marley",
       new Date(2012, 1, 13)
     ),
 
@@ -44,10 +29,10 @@ export class QouteComponent implements OnInit {
     
     new Qoute(
       3,
-      "The grass is greener when you water it",
-      "Liz",
-      "Faking Hay",
-      new Date(2020, 1, 23)
+      "follow your heart but take your brain with you",
+      "Nesta",
+      "Bob Marley",
+      new Date(2010, 1, 23)
     )
   ];
 
