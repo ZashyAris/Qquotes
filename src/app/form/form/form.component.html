@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row">
+    <form (ngSubmit)="submitQoute()">
+      <div class="forms">
+        <div id="name.valid || name.pristine" class="alert alert-danger">
+          <p>Write your Quote here</p>
+          <input
+            type="text"
+            required
+            class="form-control"
+            id="author"
+            name="author"
+          /> 
+        </div>
+      </div>
+      <div class="forms">
+        <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+          <p>Enter the author's name</p>
+          <input
+          type="text"
+          required
+          class="form-control"
+          id="author"
+          name="author"
+        />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="written">Enter your name</label>
+        <input
+          type="text"
+          required
+          class="form-control"
+          id="written"
+          name="written"
+          required
+        />
+        <!-- <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+          <p>Enter your name...</p>
+        </div> -->
+      </div>
+      <div class="form-group">
+        <label for="complete">Created On</label>
+        <input type="date" id="complete" name="completeDate" required />
+        <div
+          [hidden]="completeDate.valid || completeDate.pristine"
+          class="alert alert-danger"
+        >
+          <p>Date is required</p>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-success">Submit the quote</button>
+    </form>
+  </div>
+</div>
