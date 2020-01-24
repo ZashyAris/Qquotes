@@ -12,14 +12,15 @@ This is an Angular based application. A user is able to add a quote using the ge
 
 ## Here is a live site link.
 
-
+https://zashyaris.github.io/Qquotes/
 
 ## Code beat
 
+[![codebeat badge](https://codebeat.co/badges/b18cd4b0-b196-4c78-9cfa-504a9a31ed88)](https://codebeat.co/projects/github-com-zashyaris-qquotes-master)
 
 
 ## Setup Requirements.
-Use ctrl+alt+t command to open the terminal. run git clone https://github.com/ZashyAris/quotep cd into quotes-log run code . to open the cloned repository on Vscode. run atom . to open the cloned repository on Atom.
+Use ctrl+alt+t command to open the terminal. run git clone https://zashyaris.github.io/Qquotes/ cd into quotes-log run code . to open the cloned repository on Vscode. run atom . to open the cloned repository on Atom.
 
 ## Development server
 
